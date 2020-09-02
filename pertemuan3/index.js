@@ -11,12 +11,12 @@ console.log(typeof firstname);
 console.log(typeof age);
 console.log(typeof isMarried);
 console.log(age + " " + isMarried);
-
+console.log("My name is " + firstName + ", I'm " + age + " years old.");
 const info =
     "My name is " + firstName + ", I'm " + age + " years old." + isMarried;
 
 console.log(typeof info);
-console.log("My name is " + firstName + ", I'm " + age + " years old.");
+
 function display(){
     for (let i=0; i<10; i++){
         console.log(i);
