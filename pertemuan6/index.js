@@ -27,10 +27,7 @@ const mhs1 = {
             total = total + el;
         });
         this.IPKumulatif = total /4;
-        
-        //console.log(this.IP);
     },
-    //this untuk mengakses 
 };
 delete mhs1.namaBelakang;
 
@@ -42,8 +39,8 @@ console.log(mhs1);
 
 //2. kata kunci new
 const mhs2 = new Object();
-mhs2.namaDepan = 'al';
-mhs2.namaBelakang = 'l';
+mhs2.namaDepan = 'aldo.';
+mhs2.namaBelakang = 'L';
 
 //Mengakses properti object
 //1. dot notation
@@ -52,3 +49,25 @@ console.log(mhs1.umur);
 //2. bracket notation
 console.log(mhs1['namaDepan']);
 
+//Array object (JSON)
+const mahasiswa = [
+    {
+    nim: "001",
+    namaDepan: "Kevin",
+    namaBelakang: "Aldo",
+    },
+    {
+    nim: "002",
+    namaDepan: "Aldo",
+    namaBelakang: "L",
+    },
+    {
+    nim: "003",
+    namaDepan: "Web",
+    namaBelakang: "Pro",
+    },
+];
+
+mahasiswa.forEach(function (el1){
+    console.log(el1);
+});
