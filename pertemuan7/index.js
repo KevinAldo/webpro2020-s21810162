@@ -81,15 +81,33 @@ for (x in matkul) {
 
 /*3. for...of -  digunakan untuk mengulang setiap element dari objek 
 yang bisa diulang (contoh array atau string).*/
-const buku = ["Game of Thrones: A Song of Ice and Fire",  
-   "Harry Potter and The Philosopher's Stone", 
-   "Lord of The Rings: The Fellowship of The Ring"
+const matkul1 = [
+  "Web Programming",  
+  "Object Oriented Analysis & Design", 
+  "System Analysis & Design",
+  "Enterprise Resource Planning System",
+  "Research Writing"
 ];
 
-for (x of buku) {
+for (x of matkul1) {
   console.log(x);
 }
 
-//4. while
+/*4. while - while (kondisi) berarti ketika kondisi yang ditentukan 
+benar (true), maka jalankan semua kode yang ada di dalam {}.*/
+let i = 1;
+
+while (i <= 5) {
+  console.log(i);
+  i++;
+}
+
+
 //5. do...while
+let y = 100;
+
+do {
+  console.log(y);
+  y++;
+} while (y <= 105);
 
