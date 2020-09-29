@@ -17,7 +17,7 @@
 // }
 
 // function tes(){
-//     for (var i=0; i<10; i++)
+//     for (var i=0; i<9; i++)
 //     {
 //         console.log(i);
 //     }
@@ -29,7 +29,7 @@
 
 // {
 // let i;
-// for (i = 0; i<10; i++)
+// for (i = 0; i<9; i++)
 // {
 //     console.log(i);
 // }
