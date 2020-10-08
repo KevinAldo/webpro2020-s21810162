@@ -1,38 +1,4 @@
 /*
-    Arrow Function
-*/
-// Single argument
-// const calcAge = (year) => {
-//     return 2020 = year;
-// };
-// const calcAge = (birthYear, CurrentYear) => {
-//     return CurrentYear = birthYear;
-// };
-
-// No argument
-// const calcAge = () => {
-//         return 2020 - 1992;
-// };
-
-// No argument with Implicit return value
-// const calcAge = () => 2020 - 1992;
-// console.log(calcAge());
-
-// const years = [1990, 1992, 2001, 2005];
-
-// const calcAge5 = years.map(function(el){
-//     return 2020 - el;
-// });
-
-// const calcAge6 = years.map((el) => 2020 - el);
-// console.log(calcAge6);
-
-//Default Parameter
-// const calcAge = (birthYear, CurrentYear) => CurrentYear - birthYear;
-
-// console.log (calcAge(1991));
-
-/*
 Di Javascript ES6, ada cara baru dalam penulisan sebuah fungsi, yaitu menggunakan arrow function.
 Kelebihan menggunakan arrow function adalah penulisan fungsi menjadi lebih singkat dan lebih mudah dibaca.
 */
