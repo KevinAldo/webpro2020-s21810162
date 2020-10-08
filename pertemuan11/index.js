@@ -1,4 +1,7 @@
 /*
+    Arrow Function #01
+*/
+/*
 Di Javascript ES6, ada cara baru dalam penulisan sebuah fungsi, yaitu menggunakan arrow function.
 Kelebihan menggunakan arrow function adalah penulisan fungsi menjadi lebih singkat dan lebih mudah dibaca.
 */
