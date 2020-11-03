@@ -3,21 +3,23 @@
 // Bagian 1
 // No. 1
 const calculateAge = (birthYear)=> {
+  return 2019 - birthYear;
 }
- 
+
 const yearUntilRetirement = (object) => {
-	const age = calculateAge(object.year);
-	const retirement = 60 - age;
-   
-	if(retirement > 0){
-    	console.log(`${object.firstName} retires in ${retirement} years`);
-	} else {
-    	console.log(`${object.firstName} is already retired.`);
-	}
-}
+const age = calculateAge(object.BirthYear);
+const retirement = 60 - age;
  
+if(retirement > 0){
+    console.log(`${object.firstName} retires in ${retirement} years`);
+} else {
+    console.log(`${object.firstName} is already retired.`);
+}
+}
+
 yearUntilRetirement(
-    {birthYear: 1987, firstName: 'John'} );
+  {BirthYear: 1987, firstName: 'John'}
+  );
 
 // No. 2
 const addNumber = (a, b, c, d, e, f, g) => {
