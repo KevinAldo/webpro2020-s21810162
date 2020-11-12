@@ -1,1 +1,1 @@
-PERTEMUAN 20 tanggal 10 November 2020
+PERTEMUAN 20 tanggal 5 November 2020

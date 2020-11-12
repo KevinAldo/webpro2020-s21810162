@@ -1,1 +1,1 @@
-PERTEMUAN 21 tanggal 11 November 2020
+PERTEMUAN 21 tanggal 10 November 2020
