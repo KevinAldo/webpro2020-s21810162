@@ -4,6 +4,7 @@ import Hello from './Components/Hello';
 import Content from './Components/Content';
 import Card from './Components/Card/Cards';
 import {person} from './Components/Card/person';
+import ReactPeople from './ReactPeople/ReactPeople';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           )
         })
       }
+    <ReactPeople />
     </div>
   );
 };

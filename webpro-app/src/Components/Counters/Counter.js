@@ -1,6 +1,5 @@
-//Pertemuan 22
 import React, { useState, useEffect } from 'react';
-import {tambah, kurang} from './Counters/penjumlahan';
+
 // class Counter extends Component{
 // state ={
 //         number: 0,
@@ -31,6 +30,14 @@ const Counter = (props) =>{
     useEffect(()=>{
         console.log("Komponen telah di mount");
     }, [])
+    const tambah = () =>{
+        setNumber(number + 1);
+    };
+    const kurang = () =>{
+        number < 1 
+        ? setNumber(0)
+        : setNumber(number - 1);
+    };
     return(
         <div>
            <p>{props.title}</p> 
