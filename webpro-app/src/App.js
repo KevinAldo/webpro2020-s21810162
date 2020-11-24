@@ -4,6 +4,7 @@ import Hello from './Components/Hello';
 import Content from './Components/Content';
 import Card from './Components/Card/Cards';
 import {person} from './Components/Card/person';
+import ApPI from './Components/ApPI/ApPI';
 // import ReactPeople from './ReactPeople/ReactPeople';
 
 function App() {
@@ -17,14 +18,15 @@ function App() {
           return (
             <Card 
             name={item.name}
-            institution={item.institution}
-            address={item.address}
-            phoneNumber={item.phoneNumber}
+            username={item.username}
+            email={item.email}
+            phone={item.phone}
             />
           )
         })
       }
     {/* <ReactPeople /> */}
+    <ApPI />
     </div>
   );
 };
