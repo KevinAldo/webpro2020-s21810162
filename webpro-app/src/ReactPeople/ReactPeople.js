@@ -1,5 +1,5 @@
 import React from 'react';
-//import './ReactPeople.css';
+import './ReactPeople.css';
 
 const sortByPower = (a, b) => {
     return b.power - a.power;
